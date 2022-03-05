@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b95afa1201.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pastelería</title>
+</head>
+<body>
+    <div class="navbar">
+     <div class="container">
+        <div><img class="logoImg" src="assets/logo.jpg" alt="Logo Martian"></div>
+        <h1 class="tituloName">MARTIAN CAKE SHOP</h1>
+        <div>
+            <ul>
+                <li><a class="active" href="#inicio">Inicio</a></li>
+                <li><a href="#pedidos">Pedidos</a></li>
+                <li><a href="#sucursales">Sucursales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+        </div>
+     </div>
+    </div>
+    <div class="main">
+        <h2 class="titulo">Pedidos</h2>
+        <div class="container">
+            
+            <div class="pasteles">
+                <h2 class="subTitulo">Selecciona uno o más sabores para tu pastel</h2>
+                <hr class="hrPersonalizado">
+                <div class="sabores">
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/chocolate.JPG" alt="Chocolate">
+                                <p>Chocolate</p>
+                                <hr>
+                                <p>$110.00</p>
+                            </div>
+                    </label>                
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/Vainilla.JPG" alt="Vainilla">
+                                <p>Vainilla</p>
+                                <hr>
+                                <p>$100.00</p>
+                            </div>
+                    </label> 
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/Fresa.JPG" alt="Fresa">
+                                <p>Fresa</p>
+                                <hr>
+                                <p>$100.00</p>
+                            </div>
+                    </label> 
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/Coco.JPG" alt="Coco">
+                                <p>Coco</p>
+                                <hr>
+                                <p>$95.00</p>
+                            </div>
+                    </label> 
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/limon.JPG" alt="Limon">
+                                <p>Limon</p>
+                                <hr>
+                                <p>$160.00</p>
+                            </div>
+                    </label> 
+                    <label class="checkeable">
+                          <input type="checkbox" name="cap1"/>
+                            <div class="sabor">
+                                <img src="assets/sabores/RedVelvet.JPG" alt="RedVelvet">
+                                <p>RedVelvet</p>
+                                <hr>
+                                <p>$180.00</p>
+                            </div>
+                    </label>             
+                </div>
+    
+                <h2  class="subTitulo">Selecciona una o más decoraciones</h2>
+                <hr class="hrPersonalizado">
+
+                <div class="decoraciones">
+                     <label class="checkeable">
+                        <input type="checkbox" name="cap1"/>        
+                    
+                             <div class="decoracion">
+                                <img src="assets/decoraciones/caramelo.JPG" alt="caramelo">
+                                <p>Caramelo</p>
+                                <hr>
+                                <p>$60.00</p>
+                            </div>
+                     </label>        
+                     <label class="checkeable">
+                        <input type="checkbox" name="cap1"/>       
+                            <div class="decoracion">
+                                <img src="assets/decoraciones/Chantilly.JPG" alt="Chantilly">
+                                <p>Chantilly</p>
+                                <hr>
+                                <p>$70.00</p>
+                            </div>
+                     </label> 
+                     <label class="checkeable">
+                        <input type="checkbox" name="cap1"/>        
+                            
+                            <div class="decoracion">
+                                <img src="assets/decoraciones/Fondan.JPG" alt="Fondan">
+                                <p>Fondan</p>
+                                <hr>
+                                <p>$150.00</p>
+                            </div>
+                     </label> 
+                     <label class="checkeable">
+                        <input type="checkbox" name="cap1"/>        
+                            <div class="decoracion">
+                                <img src="assets/decoraciones/Frutas.JPG" alt="Frutas">
+                                <p>Frutas</p>
+                                <hr>
+                                <p>$60.00</p>
+                            </div>
+                    </label>       
+                     <label class="checkeable">
+                        <input type="checkbox" name="cap1"/>       
+                            <div class="decoracion">
+                                <img src="assets/decoraciones/Merengue.JPG" alt="Merengue">
+                                <p>Merengue</p>
+                                <hr>
+                                <p>$50.00</p>
+                            </div>
+                    </label>         
+                </div>
+            </div>
+            <div class="pedido">
+                <h1>Tu pedido:</h1>
+
+                <table id="customers">
+                <tr>
+                    <th>Seleccionado</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>$110.00</td>
+                </tr>
+                <tr>
+                    <td>Fresa</td>
+                    <td>$100.00</td>
+        
+                </tr>
+                <tr>
+                    <td>Chantilly</td>
+                    <td>$70.00</td>
+                
+                </tr>
+                <tr>
+                    <td>Frutas</td>
+                    <td>$60.00</td>
+                  
+                </tr>
+                <tr>
+                    <td>Total:</td>
+                    <td>$340.00</td>
+                  
+                </tr>
+                </table>
+                <a href="pedido.html"><button class="btn btn-success">Solicitar</button></a>
+            </div>
+        </div>
+    </div>
+   <footer>
+        <div class="container">
+            <div class="horarios">
+                <h2 style="margin-bottom: 10px;">Horarios de Atención</h2>
+               
+                    <p>Lunes a viernes 11:00 a.m. a 8:00 p.m.</p>
+                    <hr>
+                    <p>Sabado 11:00 a.m. a 7:00 p.m.</p>
+                    <hr>
+                    <p>Domingo 11:00 a.m. a 5:00 p.m.</p>
+                    <hr>
+               
+            </div>
+            <div class="contacto">
+                <p>MARTIAN CAKE SHOP</p>
+                <hr>
+                <p>Av. Miguel Hidalgo #1231</p>
+                <p>Colonia San Bernardino</p>
+                <p>Toluca, Estado de México</p>
+                <p>Telefono: 762 100 6505</p>
+            </div>
+            <div class="redesSociales">
+            
+                <div class="icon"><i class="fab fa-facebook fa-2x"></i></div>
+                <div class="icon"><i class="fab fa-instagram fa-2x"></i></div>
+                <div class="icon"><i class="fab fa-twitter fa-2x"></i></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
